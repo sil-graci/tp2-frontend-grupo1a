@@ -1,0 +1,290 @@
+[
+  {
+    "id": "tool-html5",
+    "nombre": "HTML5",
+    "categoria": "Lenguajes",
+    "descripcionCorta": "Lenguaje de marcado estándar para la estructura y el contenido de las páginas web.",
+    "etiquetas": ["Estructura", "Semántica", "Web Estándar"],
+    "detalle": {
+      "queEs": "Es la quinta revisión del lenguaje básico de la World Wide Web para estructurar documentos.",
+      "paraQueSirve": "Permite definir encabezados, secciones, artículos, formularios y contenido multimedia nativo.",
+      "datoUtil": "El uso correcto de etiquetas semánticas como main, nav y article ayuda a los lectores de pantalla y a otras herramientas a entender la estructura de la página."
+    }
+  },
+  {
+    "id": "tool-css3",
+    "nombre": "CSS3",
+    "categoria": "Lenguajes",
+    "descripcionCorta": "Lenguaje de diseño utilizado para definir la presentación y el aspecto visual de documentos HTML.",
+    "etiquetas": ["Estilos", "Diseño", "Responsive"],
+    "detalle": {
+      "queEs": "Es la evolución de las hojas de estilo en cascada dividida en módulos con nuevas capacidades.",
+      "paraQueSirve": "Controla colores, tipografías, maquetación mediante Flexbox y Grid, y animaciones en la interfaz.",
+      "datoUtil": "Las variables nativas de CSS (custom properties) facilitan implementar temas claro y oscuro sin librerías externas."
+    }
+  },
+  {
+    "id": "tool-javascript",
+    "nombre": "JavaScript",
+    "categoria": "Lenguajes",
+    "descripcionCorta": "Lenguaje de programación interpretado que aporta interactividad y dinamismo al navegador.",
+    "etiquetas": ["Frontend", "Interactividad", "ECMAScript"],
+    "detalle": {
+      "queEs": "Es el lenguaje fundamental del desarrollo web del lado del cliente, estandarizado por ECMAScript.",
+      "paraQueSirve": "Permite manipular el DOM, gestionar eventos de usuario, realizar peticiones asíncronas y manejar estado.",
+      "datoUtil": "A partir de ES6 incorpora sintaxis moderna como desestructuración, módulos nativos y promesas."
+    }
+  },
+  {
+    "id": "tool-typescript",
+    "nombre": "TypeScript",
+    "categoria": "Lenguajes",
+    "descripcionCorta": "Superconjunto tipado de JavaScript que compila a JavaScript plano y detecta errores tempranos.",
+    "etiquetas": ["Tipado Estático", "Productividad", "Escalabilidad"],
+    "detalle": {
+      "queEs": "Es un lenguaje de código abierto desarrollado por Microsoft que añade tipos estáticos opcionales a JavaScript.",
+      "paraQueSirve": "Facilita el mantenimiento de proyectos grandes, mejorando el autocompletado y previniendo errores en tiempo de compilación.",
+      "datoUtil": "Se puede migrar un proyecto JavaScript de a poco, archivo por archivo, sin reescribirlo todo."
+    }
+  },
+  {
+    "id": "tool-react",
+    "nombre": "React",
+    "categoria": "Frameworks y librerías",
+    "descripcionCorta": "Librería de JavaScript para construir interfaces de usuario declarativas basadas en componentes.",
+    "etiquetas": ["Componentes", "Virtual DOM", "SPA"],
+    "detalle": {
+      "queEs": "Es una librería desarrollada por Meta orientada a la creación de vistas eficientes y reutilizables.",
+      "paraQueSirve": "Permite crear Single Page Applications gestionando el estado de la aplicación mediante hooks.",
+      "datoUtil": "Su arquitectura de componentes favorece la reutilización de código y la separación clara de responsabilidades."
+    }
+  },
+  {
+    "id": "tool-vue",
+    "nombre": "Vue.js",
+    "categoria": "Frameworks y librerías",
+    "descripcionCorta": "Framework progresivo de JavaScript enfocado en la construcción de interfaces de usuario accesibles.",
+    "etiquetas": ["Progresivo", "Reactividad", "Frontend"],
+    "detalle": {
+      "queEs": "Es un framework diseñado desde cero para ser adaptable e integrable de forma gradual en cualquier proyecto.",
+      "paraQueSirve": "Facilita la vinculación bidireccional de datos y la creación de componentes con sistema de plantillas intuitivo.",
+      "datoUtil": "Su Composition API ofrece una organización de lógica similar y complementaria a los hooks de React."
+    }
+  },
+  {
+    "id": "tool-nextjs",
+    "nombre": "Next.js",
+    "categoria": "Frameworks y librerías",
+    "descripcionCorta": "Framework de React para aplicaciones web con renderizado del lado del servidor y generación estática.",
+    "etiquetas": ["SSR", "SSG", "Fullstack"],
+    "detalle": {
+      "queEs": "Es un framework de producción para React desarrollado y mantenido por Vercel.",
+      "paraQueSirve": "Optimiza el rendimiento y SEO mediante Server-Side Rendering (SSR), Static Site Generation (SSG) y rutas basadas en archivos.",
+      "datoUtil": "Incluye optimización automática de imágenes, fuentes y scripts sin necesidad de configuración compleja."
+    }
+  },
+  {
+    "id": "tool-react-router",
+    "nombre": "React Router",
+    "categoria": "Frameworks y librerías",
+    "descripcionCorta": "Librería estándar de enrutamiento del lado del cliente para aplicaciones web desarrolladas con React.",
+    "etiquetas": ["Enrutamiento", "Navegación", "SPA"],
+    "detalle": {
+      "queEs": "Es una solución de navegación declarativa que sincroniza la interfaz de usuario con la URL del navegador.",
+      "paraQueSirve": "Permite definir rutas dinámicas, layouts anidados y enlaces con estado activo sin recargar la página completa.",
+      "datoUtil": "El componente NavLink aplica automáticamente clases y atributos accesibles como aria-current cuando la ruta coincide."
+    }
+  },
+  {
+    "id": "tool-vite",
+    "nombre": "Vite",
+    "categoria": "Herramientas de desarrollo",
+    "descripcionCorta": "Herramienta de compilación frontend moderna que ofrece una experiencia de desarrollo ultrarrápida.",
+    "etiquetas": ["Bundler", "HMR", "Build Tool"],
+    "detalle": {
+      "queEs": "Es un empaquetador de nueva generación creado por Evan You que utiliza módulos ES nativos del navegador.",
+      "paraQueSirve": "Sirve código al instante durante el desarrollo con Hot Module Replacement (HMR) y genera una versión optimizada para producción.",
+      "datoUtil": "Su servidor de desarrollo arranca muy rápido porque no empaqueta todo el proyecto antes de iniciar."
+    }
+  },
+  {
+    "id": "tool-vscode",
+    "nombre": "Visual Studio Code",
+    "categoria": "Herramientas de desarrollo",
+    "descripcionCorta": "Editor de código fuente extensible y liviano ampliamente adoptado en la industria web.",
+    "etiquetas": ["Editor", "Productividad", "Extensiones"],
+    "detalle": {
+      "queEs": "Es un editor de texto y entorno ligero de desarrollo multiplataforma creado por Microsoft.",
+      "paraQueSirve": "Proporciona depuración integrada, control de versiones integrado, resaltado de sintaxis y un ecosistema amplio de extensiones.",
+      "datoUtil": "Permite configurar linters y formateadores automáticos para mantener consistencia de código en equipos."
+    }
+  },
+  {
+    "id": "tool-nodejs",
+    "nombre": "Node.js",
+    "categoria": "Herramientas de desarrollo",
+    "descripcionCorta": "Entorno de ejecución de JavaScript del lado del servidor basado en el motor V8 de Chrome.",
+    "etiquetas": ["Runtime", "Backend", "NPM"],
+    "detalle": {
+      "queEs": "Es un entorno que permite ejecutar código JavaScript fuera del navegador web mediante arquitectura asíncrona no bloqueante.",
+      "paraQueSirve": "Permite ejecutar servidores web, scripts de automatización y herramientas de construcción a través de paquetes npm.",
+      "datoUtil": "El gestor npm incluido es el registro de software y dependencias de código abierto más grande del mundo."
+    }
+  },
+  {
+    "id": "tool-eslint",
+    "nombre": "ESLint",
+    "categoria": "Herramientas de desarrollo",
+    "descripcionCorta": "Herramienta de análisis de código estático para identificar y corregir patrones problemáticos en JavaScript.",
+    "etiquetas": ["Linter", "Calidad", "Estilo de Código"],
+    "detalle": {
+      "queEs": "Es un linter configurable que examina el código fuente en busca de errores de sintaxis y discrepancias estilísticas.",
+      "paraQueSirve": "Asegura que el código siga convenciones definidas por el equipo y previene errores comunes antes de ejecutar.",
+      "datoUtil": "Se integra directamente con editores de código y pipelines de integración continua para revisiones automáticas."
+    }
+  },
+  {
+    "id": "tool-figma",
+    "nombre": "Figma",
+    "categoria": "Diseño y estilos",
+    "descripcionCorta": "Herramienta colaborativa basada en navegador para diseño de interfaces y prototipado UX/UI.",
+    "etiquetas": ["Diseño UI", "Prototipado", "Colaboración"],
+    "detalle": {
+      "queEs": "Es una plataforma de diseño vectorial en la nube que permite a múltiples usuarios trabajar en simultáneo sobre un mismo archivo.",
+      "paraQueSirve": "Sirve para diseñar wireframes, sistemas de diseño, maquetas responsivas y flujos navegables interactivos.",
+      "datoUtil": "Facilita la transición entre diseño y desarrollo al exponer tokens de color, espaciados y medidas exactas para CSS."
+    }
+  },
+  {
+    "id": "tool-postcss",
+    "nombre": "PostCSS",
+    "categoria": "Diseño y estilos",
+    "descripcionCorta": "Herramienta que transforma estilos CSS mediante plugins de JavaScript.",
+    "etiquetas": ["CSS", "Procesador", "Automatización"],
+    "detalle": {
+      "queEs": "Es un procesador de CSS modular que analiza y transforma las hojas de estilo mediante plugins específicos.",
+      "paraQueSirve": "Permite incorporar prefijos de compatibilidad con navegadores automáticamente (Autoprefixer) y optimizar el tamaño final.",
+      "datoUtil": "Muchos frameworks y herramientas modernas como Vite lo integran de manera nativa sin configuraciones complejas."
+    }
+  },
+  {
+    "id": "tool-sass",
+    "nombre": "Sass",
+    "categoria": "Diseño y estilos",
+    "descripcionCorta": "Preprocesador de CSS que añade variables, anidamiento, mixins y funciones a las hojas de estilo.",
+    "etiquetas": ["Preprocesador", "SCSS", "Estilos"],
+    "detalle": {
+      "queEs": "Es una extensión de CSS madura y estable que compila a código CSS plano legible por el navegador.",
+      "paraQueSirve": "Facilita la modularización de estilos en proyectos grandes mediante importaciones parciales y cálculos dinámicos.",
+      "datoUtil": "Su sintaxis SCSS es totalmente compatible con la sintaxis tradicional de CSS, permitiendo migrar gradualmente."
+    }
+  },
+  {
+    "id": "tool-css-modules",
+    "nombre": "CSS Modules",
+    "categoria": "Diseño y estilos",
+    "descripcionCorta": "Enfoque que genera clases CSS con ámbito local por archivo para evitar colisiones de nombres globales.",
+    "etiquetas": ["Modularidad", "Ámbito Local", "CSS"],
+    "detalle": {
+      "queEs": "Es un sistema de compilación donde todos los nombres de clases y animaciones tienen alcance local por defecto.",
+      "paraQueSirve": "Evita que estilos definidos para un componente afecten accidentalmente a otros componentes de la aplicación.",
+      "datoUtil": "En proyectos Vite o Create React App basta con nombrar el archivo como componente.module.css para activarlo."
+    }
+  },
+  {
+    "id": "tool-jest",
+    "nombre": "Jest",
+    "categoria": "Testing y calidad",
+    "descripcionCorta": "Framework de testing en JavaScript enfocado en simplicidad y cobertura integral de pruebas unitarias.",
+    "etiquetas": ["Testing", "Pruebas Unitarias", "JavaScript"],
+    "detalle": {
+      "queEs": "Es un marco de pruebas completo mantenido por la comunidad y concebido originalmente por Meta.",
+      "paraQueSirve": "Permite escribir pruebas unitarias y de integración con aserciones integradas, mocks y reportes de cobertura.",
+      "datoUtil": "Su funcionalidad de snapshots permite capturar la estructura renderizada de un componente y detectar cambios inesperados."
+    }
+  },
+  {
+    "id": "tool-vitest",
+    "nombre": "Vitest",
+    "categoria": "Testing y calidad",
+    "descripcionCorta": "Framework de pruebas unitarias nativo y ultrarrápido impulsado por la arquitectura de Vite.",
+    "etiquetas": ["Testing", "Vite", "Rendimiento"],
+    "detalle": {
+      "queEs": "Es una herramienta de pruebas moderna diseñada específicamente para aprovechar la configuración de Vite.",
+      "paraQueSirve": "Ejecuta suites de pruebas unitarias con velocidad extrema, compatible con la API de aserciones de Jest.",
+      "datoUtil": "Comparte la misma configuración de plugins y transformaciones del entorno de Vite, evitando duplicar archivos de config."
+    }
+  },
+  {
+    "id": "tool-playwright",
+    "nombre": "Playwright",
+    "categoria": "Testing y calidad",
+    "descripcionCorta": "Herramienta para pruebas de extremo a extremo (E2E) confiables en múltiples navegadores web modernos.",
+    "etiquetas": ["E2E", "Automatización", "Cross-Browser"],
+    "detalle": {
+      "queEs": "Es un framework de código abierto creado por Microsoft para la automatización y prueba de navegadores.",
+      "paraQueSirve": "Permite simular el comportamiento real de usuarios sobre Chromium, Firefox y WebKit en entornos de escritorio y móviles.",
+      "datoUtil": "Maneja esperas automáticas de elementos del DOM antes de interactuar, reduciendo pruebas inestables o fallidas por latencia."
+    }
+  },
+  {
+    "id": "tool-cypress",
+    "nombre": "Cypress",
+    "categoria": "Testing y calidad",
+    "descripcionCorta": "Plataforma de pruebas E2E e integración orientada a la experiencia del desarrollador frontend.",
+    "etiquetas": ["E2E", "Integración", "Depuración"],
+    "detalle": {
+      "queEs": "Es una herramienta de testing que se ejecuta directamente en el mismo bucle de eventos del navegador.",
+      "paraQueSirve": "Permite escribir y observar pruebas en tiempo real con recarga automática y visor paso a paso de estados.",
+      "datoUtil": "Su interfaz gráfica permite inspeccionar el DOM exacto en el momento en que se produjo cada aserción."
+    }
+  },
+  {
+    "id": "tool-git",
+    "nombre": "Git",
+    "categoria": "Despliegue y control de versiones",
+    "descripcionCorta": "Sistema de control de versiones distribuido diseñado para rastrear cambios en el código fuente.",
+    "etiquetas": ["Control de Versiones", "Ramas", "Colaboración"],
+    "detalle": {
+      "queEs": "Es el estándar de facto para el registro cronológico y distribuido de cambios en proyectos de software.",
+      "paraQueSirve": "Permite trabajar con ramas independientes, revertir versiones previas y fusionar contribuciones de varios desarrolladores.",
+      "datoUtil": "Cada desarrollador tiene una copia completa del historial del repositorio localmente, funcionando sin conexión a internet."
+    }
+  },
+  {
+    "id": "tool-github",
+    "nombre": "GitHub",
+    "categoria": "Despliegue y control de versiones",
+    "descripcionCorta": "Plataforma de alojamiento en la nube para proyectos de software gestionados con control de versiones Git.",
+    "etiquetas": ["Repositorios", "Pull Requests", "CI/CD"],
+    "detalle": {
+      "queEs": "Es un servicio basado en la nube que centraliza repositorios Git y fomenta el trabajo en equipo.",
+      "paraQueSirve": "Facilita la revisión de código mediante Pull Requests, seguimiento de incidencias y automatización de despliegues.",
+      "datoUtil": "GitHub Actions permite ejecutar pruebas automatizadas y publicar compilaciones en cada confirmación o push."
+    }
+  },
+  {
+    "id": "tool-vercel",
+    "nombre": "Vercel",
+    "categoria": "Despliegue y control de versiones",
+    "descripcionCorta": "Plataforma en la nube para publicar aplicaciones web frontend de forma instantánea con integración continua.",
+    "etiquetas": ["Hosting", "CI/CD", "Serverless"],
+    "detalle": {
+      "queEs": "Es una plataforma de infraestructura en la nube optimizada para frameworks frontend y sitios estáticos.",
+      "paraQueSirve": "Automatiza la compilación y despliegue global de sitios web cada vez que se envía código a la rama principal.",
+      "datoUtil": "Genera enlaces de vista previa (preview deployments) únicos para cada Pull Request antes de publicar en producción."
+    }
+  },
+  {
+    "id": "tool-netlify",
+    "nombre": "Netlify",
+    "categoria": "Despliegue y control de versiones",
+    "descripcionCorta": "Plataforma de alojamiento y automatización para sitios web estáticos y arquitecturas Jamstack.",
+    "etiquetas": ["Hosting", "Jamstack", "Despliegue"],
+    "detalle": {
+      "queEs": "Es una plataforma de computación en la nube que unifica la compilación, despliegue y servicios serverless.",
+      "paraQueSirve": "Permite publicar sitios web conectando repositorios Git, ofreciendo certificados SSL automáticos y redes CDN globales.",
+      "datoUtil": "Permite configurar reglas de reescritura y redireccionamiento para aplicaciones SPA mediante un archivo sencillo."
+    }
+  }
+]
