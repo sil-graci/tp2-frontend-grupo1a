@@ -1,0 +1,154 @@
+/* ==========================================================================
+   Layout Principal: Sidebar Compartida y Área de Contenido
+   ========================================================================== */
+
+.app-layout {
+  min-height: 100vh;
+  display: flex;
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  transition: background-color var(--transition-normal), color var(--transition-normal);
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Área de Contenido Principal en Desktop */
+.main-content {
+  flex: 1;
+  min-height: 100vh;
+  margin-left: var(--sidebar-width);
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - var(--sidebar-width));
+  max-width: 100%;
+  transition: margin-left var(--transition-normal);
+}
+
+.content-container {
+  flex: 1;
+  width: 100%;
+  max-width: var(--wrap-max);
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+}
+
+/* Barra Superior Móvil (Oculta en Desktop) */
+.mobile-topbar {
+  display: none;
+}
+
+/* Telón de fondo (Backdrop) para cerrar el menú en móvil */
+.sidebar-backdrop {
+  display: none;
+}
+
+/* ==========================================================================
+   Breakpoints Responsive: 900px y 380px
+   ========================================================================== */
+
+/* Tablet y Móvil (< 900px) */
+@media (max-width: 900px) {
+  .app-layout {
+    flex-direction: column;
+  }
+
+  .main-content {
+    margin-left: 0;
+    width: 100%;
+    min-height: calc(100vh - var(--header-height-mobile));
+  }
+
+  .content-container {
+    padding: 1.5rem 1.25rem;
+  }
+
+  /* Barra Superior en Móvil */
+  .mobile-topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: var(--header-height-mobile);
+    padding: 0 1.25rem;
+    background-color: var(--bg-card);
+    border-bottom: 1.5px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    z-index: 90;
+    box-shadow: var(--shadow-card);
+  }
+
+  .mobile-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    text-decoration: none;
+    color: var(--text-main);
+  }
+
+  .mobile-brand-logo {
+    width: 32px;
+    height: 32px;
+    border-radius: var(--radius-sm);
+  }
+
+  .mobile-brand-title {
+    font-family: var(--font-title);
+    font-size: 1.15rem;
+    font-weight: 700;
+  }
+
+  .mobile-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .mobile-toggle-btn {
+    background: var(--accent-subtle);
+    border: 1.5px solid var(--border-color);
+    color: var(--accent);
+    cursor: pointer;
+    padding: 0.5rem 0.65rem;
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    line-height: 1;
+    transition: transform var(--transition-fast), background-color var(--transition-fast);
+  }
+
+  .mobile-toggle-btn:hover {
+    background-color: var(--accent);
+    color: #ffffff;
+  }
+
+  /* Backdrop cuando el panel está abierto */
+  .sidebar-backdrop {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(15, 23, 42, 0.65);
+    backdrop-filter: blur(2px);
+    z-index: 99;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity var(--transition-normal);
+  }
+
+  .sidebar-backdrop.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+
+/* Móviles muy compactos (380px) */
+@media (max-width: 400px) {
+  .content-container {
+    padding: 1.25rem 0.85rem;
+  }
+
+  .mobile-brand-title {
+    font-size: 1.05rem;
+  }
+}
