@@ -55,6 +55,33 @@ export const TEAM_MEMBERS = [
         badge: "Ver en IMDb ↗",
         tipo: "serie",
       },
+       {
+        id: "adriana-peli-4",
+        titulo: "Yo, Robot",
+        autor: "Alex Proyas (2004)",
+        imagen: "/img/adriana-peli4.jpg",
+        url: "https://www.imdb.com/es-es/title/tt0343818/",
+        badge: "Ver en IMDb ↗",
+        tipo: "pelicula",
+      },
+        {
+        id: "adriana-peli-5",
+        titulo: "Severance",
+        autor: "Dan Erickson (2022-2026)",
+        imagen: "/img/adriana-peli5.jpg",
+        url: "https://www.imdb.com/es/title/tt11280740/",
+        badge: "Ver en IMDb ↗",
+        tipo: "serie",
+      },
+       {
+        id: "adriana-peli-6",
+        titulo: "Game of Thrones",
+        autor: "David Benioff & D. B. Weiss (2011-2019)",
+        imagen: "/img/adriana-peli6.jpg",
+        url: "https://www.imdb.com/es/title/tt0944947/",
+        badge: "Ver en IMDb ↗",
+        tipo: "serie",
+      },
     ],
     discos: [
       {

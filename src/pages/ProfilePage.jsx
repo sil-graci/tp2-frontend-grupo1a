@@ -112,11 +112,11 @@ export default function ProfilePage() {
           >
             <Link
               to={`/integrantes/${prevMember.id}`}
-              className="btn-nav pagination-btn"
+              className="btn-nav pagination-btn btn-primary"
             >
               ← Anterior ({prevMember.nombreCorto})
             </Link>
-            <Link to="/" className="btn-nav pagination-btn">
+            <Link to="/" className="btn-nav pagination-btn btn-primary">
               🏠 Portada del Equipo
             </Link>
             <Link
