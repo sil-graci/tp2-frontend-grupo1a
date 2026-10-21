@@ -101,7 +101,7 @@ export const BITACORA = [
     etapa: 'TP2',
     titulo: 'API pública con estados de carga y error',
     decision:
-      'Elegimos la API pública de Dev.to (sin clave) por su relación con el desarrollo web. Antes de implementarla comprobamos desde la consola del navegador que respondía sin bloqueos. La página muestra un mensaje mientras carga, otro ante un error, y permite actualizar y reintentar.',
+      'Elegimos la API pública de Dev.to (sin clave) por su relación con el desarrollo web. Antes de implementarla comprobamos desde la consola del navegador que respondía sin bloqueos. La página muestra un mensaje mientras carga, otro ante un error, permite actualizar y reintentar.',
     dificultad:
       'Para probar el error, simular "Sin conexión" en las herramientas del navegador dejó fuera a toda la aplicación de desarrollo, y Chrome mostró su pantalla de sin internet.',
     solucion:

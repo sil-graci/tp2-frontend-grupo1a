@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/layout/Layout";
-import PlaceholderPage from "./pages/PlaceholderPage";
 import HomePage from "./pages/HomePage";
 import ProfilePage from "./pages/ProfilePage";
 import CatalogPage from "./pages/CatalogPage";
@@ -9,6 +8,7 @@ import NotFoundPage from "./pages/NotFoundPage";
 import ScrollToTop from './components/layout/ScrollToTop';
 import ApiPage from "./pages/ApiPage";
 import BitacoraPage from "./pages/BitacoraPage";
+import TreePage from "./pages/TreePage";
 
 export default function App() {
   return (
@@ -25,12 +25,7 @@ export default function App() {
           />
           <Route
             path="arbol-renderizado"
-            element={
-              <PlaceholderPage
-                titulo="Árbol de componentes"
-                descripcion="Jerarquía de componentes de la aplicación."
-              />
-            }
+            element={<TreePage />}
           />
           <Route
             path="bitacora"
