@@ -7,6 +7,7 @@ import CatalogPage from "./pages/CatalogPage";
 import ContactPage from "./pages/ContactPage";
 import NotFoundPage from "./pages/NotFoundPage";
 import ScrollToTop from './components/layout/ScrollToTop';
+import ApiPage from "./pages/ApiPage";
 
 export default function App() {
   return (
@@ -19,12 +20,7 @@ export default function App() {
           <Route path="proyectos" element={<CatalogPage />} />
           <Route
             path="api-externa"
-            element={
-              <PlaceholderPage
-                titulo="API pública"
-                descripcion="Datos obtenidos desde una API externa."
-              />
-            }
+            element={<ApiPage />}
           />
           <Route
             path="arbol-renderizado"
