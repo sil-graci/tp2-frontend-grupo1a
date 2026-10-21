@@ -4,6 +4,7 @@ import PlaceholderPage from "./pages/PlaceholderPage";
 import HomePage from "./pages/HomePage";
 import ProfilePage from "./pages/ProfilePage";
 import CatalogPage from "./pages/CatalogPage";
+import ContactPage from "./pages/ContactPage";
 import NotFoundPage from "./pages/NotFoundPage";
 import ScrollToTop from './components/layout/ScrollToTop';
 import ApiPage from "./pages/ApiPage";
@@ -39,6 +40,7 @@ export default function App() {
               />
             }
           />
+          <Route path="contacto" element={<ContactPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>
