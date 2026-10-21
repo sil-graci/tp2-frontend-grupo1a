@@ -8,6 +8,7 @@ import ContactPage from "./pages/ContactPage";
 import NotFoundPage from "./pages/NotFoundPage";
 import ScrollToTop from './components/layout/ScrollToTop';
 import ApiPage from "./pages/ApiPage";
+import BitacoraPage from "./pages/BitacoraPage";
 
 export default function App() {
   return (
@@ -33,12 +34,7 @@ export default function App() {
           />
           <Route
             path="bitacora"
-            element={
-              <PlaceholderPage
-                titulo="Bitácora"
-                descripcion="Registro del proceso de trabajo del equipo."
-              />
-            }
+            element={<BitacoraPage />}
           />
           <Route path="contacto" element={<ContactPage />} />
           <Route path="*" element={<NotFoundPage />} />
