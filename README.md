@@ -350,15 +350,13 @@ La inteligencia artificial se utilizó como herramienta de apoyo durante la plan
 ### Adriana Meyniel
 
 - **Aplicaciones utilizadas:** Microsoft Copilot y Google Gemini.
-- **Modelos utilizados:** GPT, a través de Microsoft Copilot, y Gemini.
+- **Modelos utilizados:** GPT (Microsoft Copilot) y Gemini.
 - **Usos principales:**
-  - análisis de la consigna y la rúbrica;
-  - asistencia en la estructura del proyecto React;
-  - revisión de rutas, componentes y hooks;
-  - apoyo en la interacción de recomendación multimedia;
-  - depuración de código y estilos;
-  - organización y redacción del README;
-  - revisión técnica general del proyecto.
+  - asistencia para el desarrollo de la portada del equipo.
+  - apoyo en la implementación de perfiles individuales en React.
+  - ayuda en la organización de la información de integrantes.
+  - soporte para integrar y probar las interacciones personalizadas de los perfiles.
+  - resolución de dudas técnicas relacionadas con componentes, estilos y navegación.
 
 ### Silvia Podberezski
 
@@ -369,7 +367,7 @@ La inteligencia artificial se utilizó como herramienta de apoyo durante la plan
   - apoyo en rutas de React Router;
   - apoyo en la sidebar;
   - revisión y resolución de errores de código;
-   - resolución de un conflicto de merge;
+  - resolución de un conflicto de merge;
   - componente `ScrollToTop`;
   - consultas sobre Git, GitHub y la publicación en Vercel.
 
