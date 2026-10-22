@@ -64,7 +64,7 @@ export default function CatalogPage() {
         </h1>
 
         <p>
-          Catálogo curado de tecnologías, lenguajes,
+          Catálogo de tecnologías, lenguajes,
           frameworks y herramientas esenciales en el
           desarrollo web moderno para la propuesta de DevStudio.
         </p>
