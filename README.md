@@ -360,11 +360,18 @@ La inteligencia artificial se utilizó como herramienta de apoyo durante la plan
   - organización y redacción del README;
   - revisión técnica general del proyecto.
 
-### Silvia
+### Silvia Podberezski
 
-- **Aplicación utilizada:** AntiGravity.
-- **Modelo utilizado:** Pendiente de informar.
-- **Usos principales:** Pendiente de informar.
+- **Aplicación utilizada:** Claude (claude.ai).
+- **Modelo utilizado:** Claude Sonnet 5.5.
+- **Usos principales:**
+  - apoyo en navegación y layout compartido;
+  - apoyo en rutas de React Router;
+  - apoyo en la sidebar;
+  - revisión y resolución de errores de código;
+   - resolución de un conflicto de merge;
+  - componente `ScrollToTop`;
+  - consultas sobre Git, GitHub y la publicación en Vercel.
 
 ### Elías
 
