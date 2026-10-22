@@ -16,6 +16,7 @@ export default function HomePage() {
       {/* Sección Hero: Presentación y Propósito del Equipo */}
       <section id="inicio" className="hero-screen">
         <div className="hero-box">
+          <div className="hero-content">
           <h1>Equipo DevStudio</h1>
           <p className="hero-description">
             Somos DevStudio, un equipo colaborativo enfocado en el desarrollo de sitios web
@@ -38,6 +39,7 @@ export default function HomePage() {
             <p id="team-fact-output" className="interactive-output" aria-live="polite">
               {currentFact}
             </p>
+          </div>
           </div>
         </div>
       </section>

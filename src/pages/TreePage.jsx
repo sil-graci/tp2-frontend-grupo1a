@@ -23,7 +23,7 @@ export default function TreePage() {
         <button type="button" className="btn-primary" onClick={() => aplicar(true)}>
           Expandir todo
         </button>
-        <button type="button" className="btn-nav" onClick={() => aplicar(false)}>
+        <button type="button" className="btn-secondary" onClick={() => aplicar(false)}>
           Contraer todo
         </button>
       </div>
