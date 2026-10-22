@@ -51,7 +51,7 @@ export default function ApiPage() {
             {!loading && !error && data && data.length > 0 && (
                 <div className="article-grid">
                     {data.map((article) => (
-                        <div key={article.id} className="article-card" style={{ border: "1px solid #ccc", padding: "16px", margin: "10px 0", borderRadius: "8px" }}>
+                        <div key={article.id} className="article-card">
                             <h3>{article.title}</h3>
                             <p>{article.description}</p>
                             <a href={article.url} target="_blank" rel="noopener noreferrer">

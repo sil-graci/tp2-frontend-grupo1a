@@ -88,7 +88,7 @@ export default function EliasInteraction({ member }) {
         </pre>
 
         <form onSubmit={handleSubmit} style={{ display: 'flex', gap: '0.5rem', marginTop: '0.75rem' }}>
-          <span style={{ color: '#38bdf8', fontWeight: 700, alignSelf: 'center' }}>&gt;</span>
+          <span style={{ color: 'var(--accent)', fontWeight: 700, alignSelf: 'center' }}>&gt;</span>
           <input
             type="text"
             value={inputVal}
@@ -96,16 +96,16 @@ export default function EliasInteraction({ member }) {
             placeholder="Escribí: skills, peliculas, discos, frase..."
             style={{
               flex: 1,
-              background: '#131b2e',
-              border: '1px solid #334155',
+              background: 'var(--bg-card)',
+              border: '1px solid var(--border-color)',
               borderRadius: '4px',
-              color: '#f8fafc',
+              color: 'var(--text-main)',
               padding: '0.45rem 0.65rem',
               fontFamily: 'inherit',
               fontSize: '0.88rem',
             }}
           />
-          <button type="submit" className="console-cmd-btn" style={{ background: '#0284c7' }}>
+          <button type="submit" className="console-cmd-btn">
             Ejecutar
           </button>
         </form>

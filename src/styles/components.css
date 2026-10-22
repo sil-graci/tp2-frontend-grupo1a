@@ -186,12 +186,8 @@
 
 .card-link:hover {
   background-color: var(--accent);
-  color: #ffffff;
+  color: var(--text-on-accent);
   text-decoration: none;
-}
-
-[data-theme="dark"] .card-link:hover {
-  color: #090d16;
 }
 
 /* ==========================================================================
@@ -334,7 +330,7 @@
 .media-card-img-wrapper {
   width: 100%;
   height: 180px;
-  background-color: #0f172a;
+  background-color: var(--bg-card-hover);
   overflow: hidden;
   position: relative;
 }
@@ -451,12 +447,8 @@
 
 .filter-tab-btn.active {
   background: var(--accent);
-  color: #ffffff;
+  color: var(--text-on-accent);
   border-color: var(--accent);
-}
-
-[data-theme="dark"] .filter-tab-btn.active {
-  color: #090d16;
 }
 
 .recommendation-box {
@@ -470,11 +462,11 @@
 
 /* Elías: terminal */
 .console-box {
-  background: #090d16;
-  border: 1.5px solid #22304e;
+  background: var(--bg-console);
+  border: 1.5px solid var(--border-color);
   border-radius: var(--radius-sm);
   padding: 1.25rem;
-  color: #38bdf8;
+  color: var(--accent);
   font-family: "Courier New", Courier, monospace;
   font-size: 0.92rem;
   box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.6);
@@ -488,9 +480,9 @@
 }
 
 .console-cmd-btn {
-  background: #1e293b;
-  border: 1px solid #334155;
-  color: #f8fafc;
+  background: var(--bg-card-hover);
+  border: 1px solid var(--border-color);
+  color: var(--text-main);
   padding: 0.35rem 0.75rem;
   border-radius: 4px;
   font-family: inherit;
@@ -500,15 +492,15 @@
 }
 
 .console-cmd-btn:hover {
-  background: #38bdf8;
-  color: #090d16;
+  background: var(--accent);
+  color: var(--text-on-accent);
 }
 
 .console-output-area {
   min-height: 80px;
   line-height: 1.5;
   white-space: pre-wrap;
-  color: #f1f5f9;
+  color: var(--text-main);
 }
 
 /* Judith: botón favoritos */
@@ -767,13 +759,12 @@
 
 .catalog-filter-pill.active {
   background-color: var(--accent);
-  color: #ffffff;
+  color: var(--text-on-accent);
   border-color: var(--accent);
   box-shadow: 0 2px 8px rgba(37, 99, 235, 0.25);
 }
 
 [data-theme="dark"] .catalog-filter-pill.active {
-  color: #090d16;
   box-shadow: 0 2px 8px rgba(56, 189, 248, 0.25);
 }
 

@@ -120,7 +120,7 @@
 
   .mobile-toggle-btn:hover {
     background-color: var(--accent);
-    color: #ffffff;
+    color: var(--text-on-accent);
   }
 
   /* Backdrop cuando el panel está abierto */

@@ -145,14 +145,13 @@
 /* Estado Activo (Requisito de Criterio 05) */
 .nav-item-link.active {
   background-color: var(--accent);
-  color: #ffffff;
+  color: var(--text-on-accent);
   font-weight: 700;
   border-color: var(--accent);
   box-shadow: 0 2px 8px rgba(37, 99, 235, 0.25);
 }
 
 [data-theme="dark"] .nav-item-link.active {
-  color: #090d16;
   box-shadow: 0 2px 8px rgba(56, 189, 248, 0.25);
 }
 
@@ -222,6 +221,11 @@
 .theme-btn:hover {
   transform: scale(1.04);
   border-color: var(--accent);
+}
+
+.theme-btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
 }
 
 .sidebar-copy {

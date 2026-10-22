@@ -4,6 +4,7 @@
    ========================================================================== */
 
 :root {
+  color-scheme: light;
   /* Dimensiones del Layout */
   --sidebar-width: 270px;
   --header-height-mobile: 64px;
@@ -19,12 +20,15 @@
   /* Modo Claro (Vibrante) - Valores exactos TP1 */
   --bg-main: #e2e8f0;             /* Gris pizarra claro de fondo */
   --bg-card: #ffffff;             /* Blanco sólido para tarjetas y sidebar */
+  --bg-surface: #ffffff;
+  --bg-console: #f1f5f9;
   --bg-card-hover: #f1f5f9;       /* Gris muy suave para hover */
   --bg-hero: linear-gradient(135deg, #1d4ed8 0%, #4f46e5 50%, #7c3aed 100%);
 
   --text-main: #0f172a;           /* Texto oscuro de alto contraste */
   --text-muted: #475569;          /* Gris medio para descripciones */
   --text-inverse: #ffffff;
+  --text-on-accent: #ffffff;
 
   --accent: #2563eb;              /* Azul eléctrico */
   --accent-hover: #1d4ed8;
@@ -45,14 +49,18 @@
    Modo Oscuro (High Contrast Dark) - Valores exactos TP1
    ========================================================================== */
 [data-theme="dark"] {
+  color-scheme: dark;
   --bg-main: #090d16;             /* Fondo oscuro profundo */
   --bg-card: #131b2e;             /* Tarjeta y sidebar azul noche */
+  --bg-surface: #131b2e;
+  --bg-console: #090d16;
   --bg-card-hover: #1e293b;
   --bg-hero: linear-gradient(135deg, #1e1b4b 0%, #312e81 50%, #4338ca 100%);
 
   --text-main: #f8fafc;           /* Blanco nítido */
   --text-muted: #94a3b8;          /* Gris claro */
   --text-inverse: #090d16;
+  --text-on-accent: #090d16;
 
   --accent: #38bdf8;              /* Celeste brillante para iluminar */
   --accent-hover: #0ea5e9;

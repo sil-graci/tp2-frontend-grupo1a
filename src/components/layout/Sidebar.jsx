@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import { NAV_SECTIONS } from '../../data/navLinks';
+import ThemeToggle from '../common/ThemeToggle';
 
 export default function Sidebar({ isOpen, onClose }) {
   // Cerrar el panel móvil con la tecla Escape
@@ -69,7 +70,10 @@ export default function Sidebar({ isOpen, onClose }) {
       </nav>
 
       <div className="sidebar-footer">
-        {/* El selector de tema (Rol 5) va acá */}
+        <div className="theme-toggle-row">
+          <span className="theme-label">Apariencia</span>
+          <ThemeToggle showLabel />
+        </div>
         <p className="sidebar-copy">© 2026 DevStudio · Grupo 1A</p>
       </div>
     </aside>
