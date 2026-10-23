@@ -373,9 +373,15 @@ La inteligencia artificial se utilizó como herramienta de apoyo durante la plan
 
 ### Elías
 
-- **Aplicación utilizada:** Google Gémini, ChayGPT y Codex (integrado en el IDE).
-- **Modelo utilizado:** GPT.
-- **Usos principales:** Pendiente de informar.
+- **Aplicaciones utilizadas:** Google Gemini, ChatGPT y Codex (integrado en el IDE).
+- **Modelos utilizados:** GPT y Gemini.
+- **Usos principales:**
+  - ayuda en el estudio y repaso de los temas necesarios para el desarrollo del sistema.
+  - asistencia en la identificación de la estructura general del sistema.
+  - creación de estilos y variables CSS para los modos claro y oscuro.
+  - apoyo en la redacción de los hitos de la bitácora.
+  - generación de código para el árbol de componentes, posteriormente revisado.
+  - revisión y corrección continua del código implementado.
 
 ### Judith
 
