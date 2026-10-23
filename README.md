@@ -379,9 +379,14 @@ La inteligencia artificial se utilizó como herramienta de apoyo durante la plan
 
 ### Judith
 
-- **Aplicación utilizada:** Pendiente de informar.
-- **Modelo utilizado:** Pendiente de informar.
-- **Usos principales:** Pendiente de informar.
+- **Aplicación utilizada:** Microsoft Copilot y Google Gemini.
+- **Modelo utilizado:** GPT (Microsoft Copilot) y Gemini.
+- **Usos principales:** 
+- asistencia para integrar la API pública de Dev.to en la aplicación; 
+- apoyo en la creación y uso del hook personalizado useFetchApi para realizar las solicitudes;
+- soporte para conectar la página de la API con la navegación del sitio;
+- resolución de dudas técnicas y verificación de la compilación y el funcionamiento de la integración.
+- revisión y corrección de errores durante el desarrollo.
 
 ### Magalí
 
