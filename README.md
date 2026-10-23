@@ -385,9 +385,13 @@ La inteligencia artificial se utilizó como herramienta de apoyo durante la plan
 
 ### Magalí
 
-- **Aplicación utilizada:** Pendiente de informar.
-- **Modelo utilizado:** Pendiente de informar.
-- **Usos principales:** Pendiente de informar.
+- **Aplicación utilizada:** ChatGPT y Codex.
+- **Modelo utilizado:** GPT
+- **Usos principales:**
+ - ayuda con el catálogo;
+ - apoyo con la búsqueda y los filtros;
+ - revisión y corrección de errores durante el desarrollo.
+ - resolución de dudas sobre React y el código.
 
 ### Criterio de autoría
 
