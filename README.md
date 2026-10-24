@@ -185,6 +185,7 @@ tp2-frontend-grupo1a/
 │   └── icons.svg
 ├── src/
 │   ├── components/
+|   |   ├── api/
 │   │   ├── catalog/
 │   │   ├── common/
 │   │   ├── home/
