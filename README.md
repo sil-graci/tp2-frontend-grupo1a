@@ -185,7 +185,6 @@ tp2-frontend-grupo1a/
 │   └── icons.svg
 ├── src/
 │   ├── components/
-│   │   ├── api/
 │   │   ├── catalog/
 │   │   ├── common/
 │   │   ├── home/
@@ -199,6 +198,7 @@ tp2-frontend-grupo1a/
 │   │   ├── bitacoraData.js
 │   │   ├── catalogo.json
 │   │   ├── componentTreeData.js
+│   │   ├── navLinks.js
 │   │   └── teamData.js
 │   ├── hooks/
 │   │   ├── useFetchApi.js
@@ -210,6 +210,7 @@ tp2-frontend-grupo1a/
 │   │   ├── ContactPage.jsx
 │   │   ├── HomePage.jsx
 │   │   ├── NotFoundPage.jsx
+│   │   ├── PlaceholderPage.jsx
 │   │   ├── ProfilePage.jsx
 │   │   └── TreePage.jsx
 │   ├── styles/
