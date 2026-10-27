@@ -30,11 +30,11 @@ DevStudio continúa el proyecto grupal iniciado en el TP1 y lo transforma en una
 
 | Integrante | Responsabilidad principal | Perfil de GitHub |
 |------------|--------------------------|------------------|
+| Judith Leonardo| Integración de API pública, gestión de estados de carga y error, y componentes asociados a la consulta externa. | [@judith91](https://github.com/judith91) |
 | Adriana Meyniel | Portada del equipo, perfiles individuales, gestión de datos de integrantes e integración de interacciones personalizadas. | [@Adrilu-web](https://github.com/Adrilu-web) |
-| Silvia | Navegación, layout compartido, rutas de React Router, sidebar y soporte de publicación de la aplicación. | [@sil-graci](https://github.com/sil-graci) |
-| Magalí | Catálogo tecnológico, gestión de datos JSON, búsqueda, filtros y visualización dinámica de registros. | [@pintosmagali](https://github.com/pintosmagali) |
-| Judith | Integración de API pública, gestión de estados de carga y error, y componentes asociados a la consulta externa. | [@judith91](https://github.com/judith91) |
-| Elías | Identidad visual, configuración del tema, árbol de componentes, bitácora y documentación del proyecto. | [@ZagaynyElias](https://github.com/ZagaynyElias) |
+| Magalí Pintos| Catálogo tecnológico, gestión de datos JSON, búsqueda, filtros y visualización dinámica de registros. | [@pintosmagali](https://github.com/pintosmagali) |
+| Silvia Podberezski | Navegación, layout compartido, rutas de React Router, sidebar y soporte de publicación de la aplicación. | [@sil-graci](https://github.com/sil-graci) |
+| Elías Zagayny| Identidad visual, configuración del tema, árbol de componentes, bitácora y documentación del proyecto. | [@ZagaynyElias](https://github.com/ZagaynyElias) |
 
 
 El proyecto conserva el mismo equipo del TP1. Cada integrante cuenta con un perfil dentro de la aplicación React y una interacción vinculada con su contenido.
@@ -60,25 +60,25 @@ El proyecto conserva el mismo equipo del TP1. Cada integrante cuenta con un perf
 
 ### Portada de DevStudio
 
-![Portada](public/img/readme/home.png)
+![Portada de DevStudio](public/img/readme/home.webp)          
 
 Vista principal de la aplicación con la presentación del equipo, identidad visual y acceso a los perfiles.
 
 ### Perfil de integrante
 
-![Perfil](public/img/readme/profile.png)
+![Perfil de integrante](public/img/readme/profile.webp)
 
 Perfil individual desarrollado en React con interacción personalizada.
 
 ### Catálogo tecnológico
 
-![Catálogo](public/img/readme/catalog.png)
+![Catálogo tecnológico](public/img/readme/catalog.webp)
 
 Listado dinámico generado desde JSON local con funcionalidades de búsqueda y filtrado.
 
 ### API pública
 
-![API](public/img/readme/api.png)
+![API pública](public/img/readme/api.webp)
 
 Consulta de artículos de React obtenidos desde la API pública de DEV Community.
 
@@ -349,10 +349,21 @@ Los principales cambios son:
 
 La inteligencia artificial se utilizó como herramienta de apoyo durante la planificación, el diseño, la programación, la revisión, la depuración y la documentación del proyecto. Las propuestas obtenidas fueron revisadas y adaptadas por el equipo antes de incorporarse a la aplicación.
 
+### Judith Leonardo
+
+- **Aplicación utilizada:** Microsoft Copilot y Google Gemini.
+- **Modelo utilizado:** GPT-5 (Microsoft Copilot) y Gemini 3.1 Pro (Gemini)
+- **Usos principales:** 
+- asistencia para integrar la API pública de Dev.to en la aplicación; 
+- apoyo en la creación y uso del hook personalizado useFetchApi para realizar las solicitudes;
+- soporte para conectar la página de la API con la navegación del sitio;
+- resolución de dudas técnicas y verificación de la compilación y el funcionamiento de la integración.
+- revisión y corrección de errores durante el desarrollo.
+
 ### Adriana Meyniel
 
 - **Aplicaciones utilizadas:** Microsoft Copilot y Google Gemini.
-- **Modelos utilizados:** GPT (Microsoft Copilot) y Gemini.
+- **Modelos utilizados:** GPT-5 (Microsoft Copilot) y Gemini 3.1 Pro (Gemini)
 - **Usos principales:**
   - asistencia para el desarrollo de la portada del equipo.
   - apoyo en la implementación de perfiles individuales en React.
@@ -360,7 +371,17 @@ La inteligencia artificial se utilizó como herramienta de apoyo durante la plan
   - soporte para integrar y probar las interacciones personalizadas de los perfiles.
   - resolución de dudas técnicas relacionadas con componentes, estilos y navegación.
 
-### Silvia Podberezski
+### Magalí Pintos
+
+- **Aplicación utilizada:** ChatGPT y Codex.
+- **Modelo utilizado:** GPT
+- **Usos principales:**
+ - ayuda con el catálogo;
+ - apoyo con la búsqueda y los filtros;
+ - revisión y corrección de errores durante el desarrollo.
+ - resolución de dudas sobre React y el código.
+
+### Silvia Podberezski  
 
 - **Aplicación utilizada:** Claude (claude.ai).
 - **Modelo utilizado:** Claude Sonnet 5.5.
@@ -373,7 +394,7 @@ La inteligencia artificial se utilizó como herramienta de apoyo durante la plan
   - componente `ScrollToTop`;
   - consultas sobre Git, GitHub y la publicación en Vercel.
 
-### Elías
+### Elías Zagayny
 
 - **Aplicaciones utilizadas:** Google Gemini, ChatGPT y Codex (integrado en el IDE).
 - **Modelos utilizados:** GPT y Gemini.
@@ -385,26 +406,6 @@ La inteligencia artificial se utilizó como herramienta de apoyo durante la plan
   - generación de código para el árbol de componentes, posteriormente revisado.
   - revisión y corrección continua del código implementado.
 
-### Judith
-
-- **Aplicación utilizada:** Microsoft Copilot y Google Gemini.
-- **Modelo utilizado:** GPT (Microsoft Copilot) y Gemini.
-- **Usos principales:** 
-- asistencia para integrar la API pública de Dev.to en la aplicación; 
-- apoyo en la creación y uso del hook personalizado useFetchApi para realizar las solicitudes;
-- soporte para conectar la página de la API con la navegación del sitio;
-- resolución de dudas técnicas y verificación de la compilación y el funcionamiento de la integración.
-- revisión y corrección de errores durante el desarrollo.
-
-### Magalí
-
-- **Aplicación utilizada:** ChatGPT y Codex.
-- **Modelo utilizado:** GPT
-- **Usos principales:**
- - ayuda con el catálogo;
- - apoyo con la búsqueda y los filtros;
- - revisión y corrección de errores durante el desarrollo.
- - resolución de dudas sobre React y el código.
 
 ### Criterio de autoría
 
