@@ -374,7 +374,7 @@ La inteligencia artificial se utilizó como herramienta de apoyo durante la plan
 ### Magalí Pintos
 
 - **Aplicación utilizada:** ChatGPT y Codex.
-- **Modelo utilizado:** GPT
+- **Modelo utilizado:** GPT-6
 - **Usos principales:**
  - ayuda con el catálogo;
  - apoyo con la búsqueda y los filtros;
